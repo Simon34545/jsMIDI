@@ -463,7 +463,7 @@ document.getElementById('file').addEventListener('change', function(e) {
 		} catch (error) {
 			console.error(error);
 			document.body.appendChild((function() { document.body.appendChild(document.createElement('br')); var a = document.createElement('pre'); a.innerText = error.stack; a.style.color = "#cc0000"; return a; } )());
-			document.body.appendChild((function() { document.body.appendChild(document.createElement('br')); var a = document.createElement('tt'); a.innerText = "An error has occured. Please report this to ."; return a; } )());
+			document.body.appendChild((function() { document.body.appendChild(document.createElement('br')); var a = document.createElement('tt'); a.innerText = "An error has occured. Please report this to https://github.com/Simon34545/jsMIDI/issues."; return a; } )());
 		}
 	};
 	reader.readAsArrayBuffer(file);
